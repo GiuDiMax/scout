@@ -1,11 +1,3 @@
 .container{
 	background-color: green !important;
 }
-
-body{
-	background-color: green !important;
-}
-
-#bookingForm{
-	display:none !important;
-}

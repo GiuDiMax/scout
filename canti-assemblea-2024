@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libretto dei Canti</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+		.bg-primary{
+		
+		}
+        .bg-primary {
+            background-color: #ECE9E6;
+        }
+        .bg-secondary {
+            background-color: white;
+        }
+        .text-primary {
+            color: #462678;
+        }
+        .text-secondary {
+            color: #211638;
+        }
+        .text-accent {
+            color: #6B478D;
+        }
+        body, pre {
+            font-family: 'Roboto', sans-serif;
+        }
+        h1, h2 {
+            font-family: 'Roboto Slab', serif;
+        }
+		
+		.canto{
+			
+		}
+		
+		.canto i{
+			font-size: 1em;
+			font-weight: 500;
+			line-height: 1.3em;
+		}
+    </style>
+</head>
+<body class="bg-primary text-secondary">
+    <div class="container mx-auto px-4 py-8 max-w-3xl">
+        <header class="text-center mb-8">
+            <img src="https://upload.wikimedia.org/wikipedia/it/4/4c/AGESCI.svg" alt="Logo AGESCI" class="w-24 mx-auto mb-4">
+            <h1 class="text-4xl font-bold text-primary mb-4">Libretto dei Canti</h1>
+            <p class="text-xl">Assemblea Autunnale - AGESCI Zona Bari Centro - 1 dicembre 2024</p>
+        </header>
+		
+		<img src="https://i.ibb.co/WcBd6F1/img1.webp" alt="Placeholder Header Image" class="w-full mx-auto max-w-full my-4">
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-accent mb-4 text-center">Canto di Ingresso: Veniamo da Te</h2>
+            <pre class="bg-secondary p-4 rounded shadow-md overflow-auto whitespace-pre-wrap canto">
+			
+Introduzione: <i>SOL SOL7</i>
+
+<b class="text-accent">RIT</b>
+<i>Do                     Re-7     Sol</i>
+Veniamo da Te, o Signore
+<i>         Mi-                       La-</i>
+con il cuore pieno di gioia
+<i>       Do         Re-             Sol7</i>
+ed insieme vogliamo ringraziarti.
+<i>Do               Re-7         Sol</i>
+Veniamo da Te, o Signore
+<i>         Mi-                 La-</i>
+con il cuore pieno di gioia
+<i>     Do         Re-       Sol   Do</i>
+ed insieme vogliamo ringraziarti.
+
+<i>Do                              Re-</i>
+Per i giorni che ci doni
+<i>Sol       Do</i>
+ti ringraziamo.
+                                 Re-</i>
+Per i frutti della terra
+<i>Sol    Do</i>
+ti ringraziamo.
+<i>Mi       La-     Mi               La-</i>
+Per il lavoro, le gioie della vita
+<i>Fa     Sol</i>
+ti ringraziamo. <b class="text-accent">RIT</b>
+
+ 
+Per le Tue parole
+ti ringraziamo.
+Perchè hai dato la tua vita
+ti ringraziamo.
+E per la Chiesa che tutti ci unisce
+ti ringraziamo. <b class="text-accent">RIT</b>
+            </pre>
+        </section>
+		
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-accent mb-4 text-center">Alleluia delle lampadine</h2>
+            <pre class="bg-secondary p-4 rounded shadow-md overflow-auto whitespace-pre-wrap canto">
+
+<b class="text-accent">RIT</b>(x2)	
+<i>Do Fa</i>
+Alleluia, alleluia!
+<i>Do Sol</i>
+Alleluia, alleluia!
+<i>Do Fa</i>
+Alleluia, alleluia!
+<i>Do   Sol    Do</i>
+A – llelu – ia!
+
+<i>Do    Fa    Sol     Do</i>
+La nostra festa non deve finire,
+<i> Lam   Rem   Sol   Do</i>
+non deve finire e non finirà!
+<i>Do    Fa   Sol   Do</i>
+La nostra festa non deve finire,
+<i> Lam    Rem    Sol     Do</i>
+non deve finire e non finirà!
+<i> Fa    Sol     Do    Lam</i>
+Perché la festa siamo noi
+<i> Fa    Sol    Do    Do7</i>
+che camminiamo verso te!
+<i> Fa    Sol     Do    Lam</i>
+Perché la festa siamo noi
+<i> Re7    Sol     Sol7</i>
+cantando, insieme così... la – la – la
+<b class="text-accent">RIT</b>
+            </pre>
+        </section>
+		
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-accent mb-4 text-center">Offertorio: Accogli i nostri doni</h2>
+            <pre class="bg-secondary p-4 rounded shadow-md overflow-auto whitespace-pre-wrap canto">
+
+<b class="text-accent">RIT</b>
+
+            </pre>
+        </section>
+		
+		<img src="https://i.ibb.co/McdvX9f/ass.webp" alt="Placeholder Header Image" class="w-full mx-auto max-w-full my-4">
+
+        <footer class="text-center mt-8">
+            <img src="https://upload.wikimedia.org/wikipedia/it/4/4c/AGESCI.svg" alt="Logo AGESCI" class="w-24 mx-auto mb-4">
+            <p class="text-sm">&copy; 2024 AGESCI Zona Bari Centro</p>  
+            <img src="https://i.ibb.co/P5tDKJt/img2.webp" alt="Placeholder Footer Image" class="w-full mx-auto max-w-full my-4">
+        </footer>
+    </div>
+</body>
+</html>

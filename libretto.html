@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Libretto dei Canti</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;700&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
-		.bg-primary{
-		
-		}
+        @keyframes slideInUp {
+            from {
+                transform: translateY(20%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
         .bg-primary {
             background-color: #ECE9E6;
         }
         .bg-secondary {
             background-color: white;
         }
+		.bg-footer{
+			background-color: #462678;
+		}
         .text-primary {
             color: #462678;
         }
@@ -25,37 +35,53 @@
         .text-accent {
             color: #6B478D;
         }
+		.text-footer{
+			color:white;
+		}
         body, pre {
             font-family: 'Roboto', sans-serif;
         }
         h1, h2 {
             font-family: 'Roboto Slab', serif;
         }
-		
 		.canto{
-			
+			font-weight: 400;
 		}
-		
-		.canto i{
-			font-size: 1em;
-			font-weight: 500;
-			line-height: 1.3em;
-		}
+        .canto i {
+            font-size: 1em;
+            font-weight: 400;
+            line-height: 1.5em;
+			color: #6B478D;
+        }
+        .slide-in-up {
+            opacity: 0;
+            transform: translateY(20%);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+        .slide-in-up-active {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        .hover-grow:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
     </style>
 </head>
 <body class="bg-primary text-secondary">
-    <div class="container mx-auto px-4 py-8 max-w-3xl">
-        <header class="text-center mb-8">
-            <img src="https://upload.wikimedia.org/wikipedia/it/4/4c/AGESCI.svg" alt="Logo AGESCI" class="w-24 mx-auto mb-4">
+	<header style="height: 2em;"/>
+    <div class="container mx-auto px-4 pt-8 max-w-3xl">
+        <section class="text-center mb-8 slide-in-up">
+            <img src="https://i.ibb.co/gSRY4z9/Logo-Bari-Centro-normale-png.webp" alt="Logo AGESCI" class="w-48 mx-auto mb-4 hover-grow">
             <h1 class="text-4xl font-bold text-primary mb-4">Libretto dei Canti</h1>
             <p class="text-xl">Assemblea Autunnale - AGESCI Zona Bari Centro - 1 dicembre 2024</p>
-        </header>
-		
-		<img src="https://i.ibb.co/WcBd6F1/img1.webp" alt="Placeholder Header Image" class="w-full mx-auto max-w-full my-4">
-        <section class="mb-8">
+        </section>
+
+        <img src="https://i.ibb.co/WcBd6F1/img1.webp" alt="Placeholder Header Image" class="w-full mx-auto max-w-full my-4 slide-in-up rounded shadow-md">
+
+        <section class="mb-8 slide-in-up">
             <h2 class="text-2xl font-bold text-accent mb-4 text-center">Canto di Ingresso: Veniamo da Te</h2>
             <pre class="bg-secondary p-4 rounded shadow-md overflow-auto whitespace-pre-wrap canto">
-			
 Introduzione: <i>SOL SOL7</i>
 
 <b class="text-accent">RIT</b>
@@ -76,9 +102,9 @@ ed insieme vogliamo ringraziarti.
 Per i giorni che ci doni
 <i>Sol       Do</i>
 ti ringraziamo.
-                                 Re-</i>
+<i>Do                              Re-</i>
 Per i frutti della terra
-<i>Sol    Do</i>
+<i>Sol       Do</i>
 ti ringraziamo.
 <i>Mi       La-     Mi               La-</i>
 Per il lavoro, le gioie della vita
@@ -94,57 +120,247 @@ E per la Chiesa che tutti ci unisce
 ti ringraziamo. <b class="text-accent">RIT</b>
             </pre>
         </section>
-		
-        <section class="mb-8">
+
+        <section class="mb-8 slide-in-up">
             <h2 class="text-2xl font-bold text-accent mb-4 text-center">Alleluia delle lampadine</h2>
             <pre class="bg-secondary p-4 rounded shadow-md overflow-auto whitespace-pre-wrap canto">
 
-<b class="text-accent">RIT</b>(x2)	
-<i>Do Fa</i>
+<b class="text-accent">RIT</b>(x2)  
+<i>Do     Fa</i>
 Alleluia, alleluia!
-<i>Do Sol</i>
+<i>Do     Sol</i>
 Alleluia, alleluia!
-<i>Do Fa</i>
+<i>Do     Fa</i>
 Alleluia, alleluia!
-<i>Do   Sol    Do</i>
+<i>Do  Sol  Do</i>
 A – llelu – ia!
 
-<i>Do    Fa    Sol     Do</i>
+<i>Do       Fa        Sol         Do</i>
 La nostra festa non deve finire,
-<i> Lam   Rem   Sol   Do</i>
+<i>   Lam      Rem      Sol       Do</i>
 non deve finire e non finirà!
-<i>Do    Fa   Sol   Do</i>
+<i>Do       Fa        Sol         Do</i>
 La nostra festa non deve finire,
-<i> Lam    Rem    Sol     Do</i>
+<i>   Lam      Rem      Sol       Do</i>
 non deve finire e non finirà!
-<i> Fa    Sol     Do    Lam</i>
+<i>Fa    Sol     Do    Lam</i>
 Perché la festa siamo noi
-<i> Fa    Sol    Do    Do7</i>
+<i>   Fa       Sol      Do      Do7</i>
 che camminiamo verso te!
-<i> Fa    Sol     Do    Lam</i>
+<i>Fa    Sol     Do    Lam</i>
 Perché la festa siamo noi
-<i> Re7    Sol     Sol7</i>
+<i> Re7       Sol        Sol7</i>
 cantando, insieme così... la – la – la
 <b class="text-accent">RIT</b>
             </pre>
         </section>
-		
-        <section class="mb-8">
+
+        <section class="mb-8 slide-in-up">
             <h2 class="text-2xl font-bold text-accent mb-4 text-center">Offertorio: Accogli i nostri doni</h2>
             <pre class="bg-secondary p-4 rounded shadow-md overflow-auto whitespace-pre-wrap canto">
 
+<i> Re     Fa#-7     Mi-7     La4     La</i>
+Accogli i nostri doni, Dio dell'universo,
+<i>      Si-          Fa#-7        Sol         La4       La</i>
+in questo misterioso incontro col tuo Figlio.
+<i>      Si-          Fa#-         Sol           Re</i>
+Ti offriamo il pane che Tu ci dai:
+<i>  Si-   Mi-7     Sol     La     Re     La</i>
+trasformalo in Te, Signor.
+
 <b class="text-accent">RIT</b>
+<i>    Re    Mi-    La4    La </i>
+Benedetto nei secoli il Signore
+<i>    Sol    La    Fa#-    Si</i>
+infinita sorgente della vita.
+<i>    Mi-7    La6    Re    Re/Do#    Si</i>
+Benedetto nei secoli
+<i>    Sol    La    Re    Sol    Re -> (Sib su cambio tono)</i>
+Benedetto nei secoli. 
+
+Accogli i nostri doni, Dio dell'universo,
+in questo misterioso incontro col tuo Figlio.
+Ti offriamo il vino che Tu ci dai:
+trasformalo in Te, Signor.
+
+<b class="text-accent">RIT</b> (Cambio tono)
+<i>    Mib    Fa-    Sib4    Sib </i>
+Benedetto nei secoli il Signore
+<i>    Lab    Sib    Sol-    Do-</i>
+infinita sorgente della vita.
+<i>    Fa-7    Sib6    Mib    Mib/Re    Do-</i>
+Benedetto nei secoli
+<i>    Lab    Sib    Lab    Mib</i>
+Benedetto nei secoli. 
+            </pre>
+        </section>
+
+        <img src="https://i.ibb.co/McdvX9f/ass.webp" alt="Placeholder Header Image" class="w-full mx-auto max-w-full my-4 slide-in-up rounded shadow-md">
+		
+		        <section class="mb-8 slide-in-up">
+            <h2 class="text-2xl font-bold text-accent mb-4 text-center">Santo: Santo Zaire</h2>
+            <pre class="bg-secondary p-4 rounded shadow-md overflow-auto whitespace-pre-wrap canto">
+			
+<i>Re      Sol      Re    La    Re</i>
+Santo, santo, osa--a---nna!
+<i>Re      Sol      Re    La    Re</i>
+Santo, santo, osa--a---nna!
+
+<b class="text-accent">RIT</b>
+<i>  Re            Sol      Re</i>
+Osanna eh, osanna eh,
+<i>  Sol            La      Re</i>
+osanna a Cristo Signor!
+<i>  Re            Sol      Re</i>
+Osanna eh, osanna eh,
+<i>  Sol            La      Re</i>
+osanna a Cristo Signor!
+
+I cieli e la terra, o Signore
+sono pie--ni di Te!
+I cieli e la terra, o Signore
+sono pie--ni di Te! <b class="text-accent">RIT</b>
+
+Benedetto Colui che viene
+nel nome Tuo, Signor!
+Benedetto Colui che viene
+nel nome Tuo, Signor! <b class="text-accent">RIT</b>
+            </pre>
+        </section>
+		
+			<section class="mb-8 slide-in-up">
+            <h2 class="text-2xl font-bold text-accent mb-4 text-center">Comunione: L'unico Maestro</h2>
+            <pre class="bg-secondary p-4 rounded shadow-md overflow-auto whitespace-pre-wrap canto">
+			
+<i>La-                   Mi                   La-                   Mi7</i>
+Le mie mani, con le tue, possono fare meraviglie.
+<i>La-                   Mi                   La-                   Mi7</i>
+Possono stringere, perdonare e costruire cattedrali.
+<i>Do                Sol                 Fa        Mi       La-                   Mi7</i>
+Possono dare da mangia-re, e far fiorire una preghiera.
+
+<b class="text-accent">RIT</b>
+<i>         Do            Sib</i>
+Perché Tu, solo Tu,
+<i>         Do               Sib               Fa</i>
+solo Tu sei il mio Maestro, e insegnami
+<i>                              Re               Do</i>
+ad amare come hai fatto Tu con me.
+<i>      Sib               Do               Sib</i>
+Se lo vuoi, io lo grido a tutto il mondo
+<i>          Fa               Do</i>
+che Tu sei, l’unico Maestro sei per me
+
+Questi piedi
+Con i tuoi
+Possono fare strade nuove
+Possono correre
+Riposare
+Sentirsi a casa in questo mondo
+Possono mettere radici
+E passo passo camminare <b class="text-accent">RIT</b>
+
+Questi occhi
+Con i Tuoi
+Potran vedere meraviglie
+Potranno piangere
+Luccicare
+Guardare oltre ogni frontiera
+Potranno amare più di ieri
+Se sanno insieme a Te sognare <b class="text-accent">RIT</b>
+
+Tu sei il corpo
+Noi le membra
+Diciamo un'unica preghiera
+Tu sei il Maestro, noi
+Testimoni
+Della parola del Vangelo
+Possiamo vivere felici
+In questa chiesa che rinasce <b class="text-accent">RIT</b>
 
             </pre>
         </section>
 		
-		<img src="https://i.ibb.co/McdvX9f/ass.webp" alt="Placeholder Header Image" class="w-full mx-auto max-w-full my-4">
+					<section class="mb-8 slide-in-up">
+            <h2 class="text-2xl font-bold text-accent mb-4 text-center">Finale: Danza la vita</h2>
+            <pre class="bg-secondary p-4 rounded shadow-md overflow-auto whitespace-pre-wrap canto">
+			
+<i>DO            FA                  DO    FA</i>
+Canta con la voce e con il cuore,
+<i>DO                   FA</i>
+con la bocca e con la vita,
+<i>DO               FA        DO   FA</i>
+canta senza stonature,
+<i>DO     FA        DO</i>
+la verità…del cuore.
+<i>DO                   FA       DO</i>
+Canta come cantano i viandanti: (canta come cantano i viandanti)
+<i>DO                   FA       DO</i>
+Non solo per riempire il tempo, (non solo per riempire il tempo)
+<i>DO                   FA       DO</i>
+Ma per sostenere lo sforzo. (ma per sostenere lo sforzo)
+<i>DO                   FA       DO</i>
+Canta e cammina
+<i>DO                   FA       DO</i>
+Canta e cammina
 
-        <footer class="text-center mt-8">
-            <img src="https://upload.wikimedia.org/wikipedia/it/4/4c/AGESCI.svg" alt="Logo AGESCI" class="w-24 mx-auto mb-4">
-            <p class="text-sm">&copy; 2024 AGESCI Zona Bari Centro</p>  
-            <img src="https://i.ibb.co/P5tDKJt/img2.webp" alt="Placeholder Footer Image" class="w-full mx-auto max-w-full my-4">
-        </footer>
+<i>       SOL                           LA-</i>
+Se poi, credi non possa bastare,
+<i>          RE</i>
+segui il tempo
+<i>  FA          SOL</i>
+stai pronto e…
+
+<b class="text-accent">RIT</b>
+<i>         DO         FA          SOL           DO</i>
+Danza la vita al ritmo dello spirito
+<i>         LA-         FA          SOL             DO</i>
+Danza, danza al ritmo che c'è in te
+<i>         DO         FA          SOL           DO</i>
+Spirito che riempi i nostri cuor.
+<i>         DO         FA          SOL           DO</i>
+Danza assieme a noi
+
+Cammina sulle orme del Signore
+Non solo con i piedi ma
+Usa soprattutto il cuore
+Ama… chi è con te.
+Cammina con lo zaino sulle spalle: (cammina con lo zaino sulle spalle)
+La fatica aiuta a crescere (la fatica aiuta a crescere)
+Nella condivisione (nella condivisione)
+Canta e cammina
+Canta e cammina
+
+Se poi, credi non possa bastare,
+segui il tempo
+stai pronto e… <b class="text-accent">RIT</b>
+
+            </pre>
+        </section>
+		
+		<img src="https://i.ibb.co/P5tDKJt/img2.webp" alt="Placeholder Footer Image" class="w-full mx-auto max-w-full my-4 slide-in-up rounded shadow-md">
     </div>
+	
+	<footer class="text-center mt-8 bg-footer text-footer py-4 w-full">
+		<img src="https://i.ibb.co/Wkqktj0/Logo-Bari-Centro-bianco-png.webp" alt="Logo AGESCI" class="w-36 mx-auto mb-4">
+		<p class="text-sm">&copy; 2024 AGESCI Zona Bari Centro</p>  
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('slide-in-up-active');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            });
+
+            document.querySelectorAll('.slide-in-up').forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
 </body>
 </html>
